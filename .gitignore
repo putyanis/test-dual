@@ -1,0 +1,7 @@
+/.idea
+/.docker
+/bitrix
+/upload
+.htaccess
+/docker-compose.yml
+/node_modules
