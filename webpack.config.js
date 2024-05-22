@@ -4,7 +4,6 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 module.exports = {
     entry: {
         app    : ["./assets/src/app.js"],
-        critical: ["./assets/src/critical.js"],
     },
     output   : {
         filename: "[name].js",

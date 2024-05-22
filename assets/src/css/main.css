@@ -1,0 +1,68 @@
+body {
+    font-family: "Roboto", sans-serif;
+    min-height: 100dvh;
+}
+
+.main {
+    position: relative;
+    min-height: 100dvh;
+    background: #0B0E17 url("/assets/src/images/tile.png") repeat top 0 left 50%;
+}
+
+.inner {
+    margin: 0 auto;
+    width: 1288px;
+}
+
+.section {
+    padding: 70px 0;
+    box-sizing: border-box;
+}
+
+.title-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 36px;
+}
+
+.title-wrapper_projects {
+    margin-bottom: 50px;
+}
+
+.title {
+    font-family: "Larken", serif;
+    font-size: 60px;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.subtitle {
+    font-family: "Larken", serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFC978;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+
+@media (max-width: 768px) {
+    .inner {
+        width: 100%;
+    }
+
+    .section {
+        padding: 25px 20px;
+    }
+
+    .title-wrapper {
+        padding-top: 41px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .title {
+        font-size: 36px;
+    }
+}
